@@ -1,0 +1,31 @@
+{
+    "name": "krak/money-normalizer",
+    "description": "Symfony Normalizer/Denormalizer for moneyphp/money",
+    "type": "library",
+    "homepage": "https://github.com/krakphp/money-normalizer",
+    "keywords": [
+        "money",
+        "money-normalizer",
+        "symfony",
+        "symfony4"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Krak\\MoneyNormalizer\\": "src"
+        }
+    },
+    "require": {
+        "symfony/serializer": "^3.4|^4.1"
+    },
+    "require-dev": {
+        "symfony/dependency-injection": "^4.0",
+        "symfony/http-kernel": "^4.0"
+    }
+}
